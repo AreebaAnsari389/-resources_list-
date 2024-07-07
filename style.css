@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    width: 100%;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.list-container {
+    margin-top: 20px;
+}
+
+.list-wrapper {
+    margin-bottom: 20px;
+}
+
+.list-wrapper h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.programming-resources {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.design-resources {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.learning-resources {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.learning-resources li {
+    margin-bottom: 5px;
+}
+
+.learning-resources li::before {
+    content: "• ";
+    color: #2a9d8f;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
